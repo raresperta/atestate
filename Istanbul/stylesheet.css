@@ -1,0 +1,204 @@
+.home {
+    position:absolute;
+    background-image: url("main_back.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    top:0px;
+    left:0;
+    margin:0;
+    background-position:0px -30px;
+}
+#hagia {
+    background-image: url("hagia_back.jpg");
+}
+#topkapi {
+    background-image: url("topkapi_back.jpg");
+}
+#bazaar {
+    background-image: url("bazaar_back.jpg");
+}
+.header {
+    display:block;
+    width:100%;
+    height:12vh;
+    background-color:rgba(166, 166, 190,0.3);
+    padding-top:1%;
+    text-align:center;
+    position:fixed;
+}
+#hagia .header {
+    background-color:rgb(65 40 20 / 30%);
+}
+#topkapi .header {
+    background-color:rgb(87 113 134 / 30%);
+}
+#bazaar .header {
+    background-color: rgb(53 3 0 / 30%);
+}
+.menu {
+    list-style:none;
+    margin:0;
+    padding:0;
+    width:100%;
+    display:inline;
+    text-align:center;
+}
+.menu_item {
+    display:inline-block;
+    width:auto;
+    padding-left:20px;
+    padding-right:20px;
+    text-decoration:none;
+    margin-left:0;
+    margin-right:0;
+    height:auto;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-size:40px;
+    background-color:transparent;
+    color:white;
+}
+.menu_item:hover {
+    color:rgb(96, 48, 230);
+    background-color:white;
+    border-radius:5px;
+}
+#hagia .menu_item:hover {
+    color:rgb(65 40 20);
+}
+#topkapi .menu_item:hover {
+    color:rgb(87 113 134);
+}
+#bazaar .menu_item:hover {
+    color:rgb(53 3 0)
+}
+.information {
+    top:20%;
+    position: absolute;
+    width:100%;
+    height:80%;
+    display:inline;
+}
+.content_menu {
+    display:inline;
+}
+.text_area {
+    background-color:rgba(166, 166, 190,0.3);
+    display:inline;
+    position:absolute;
+    left:17%;
+    width:75%;
+    top:25px;
+    overflow-y:auto;
+    border-left:1px solid white;
+    height:80%;
+    padding-right:20px;
+}
+#hagia .text_area {
+    background-color:rgb(65 40 20 / 30%);
+}
+#topkapi .text_area {
+    background-color: rgb(87 113 134 / 30%);
+}
+#bazaar .text_area {
+    background-color:rgb(53 3 0 / 30%);
+}
+.text_area p {
+    cursor:default;
+    font-size:24px;
+    color:white;
+    margin-top:25px;
+    margin-left:80px;
+    margin-bottom:50px;
+}
+.text_area h1 {
+    color:white;
+    margin-top:25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left:80px;
+}
+.content_menu_item {
+    font-size:30px;
+    color:white;
+    text-decoration:none;
+    display:block;
+    width:120px;
+    margin-left:40px;
+    padding:20px;
+    margin-top:10px;
+    margin-bottom:10px;
+    transition: all 0.3s ease-in-out;
+}
+.content_menu_item:hover {
+    transform: scale(1.1);
+}
+.text_area::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
+.text_area::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255,0.8);
+    border-radius:5px;
+}
+  
+.text_area::-webkit-scrollbar-thumb {
+    background:linear-gradient(rgb(166, 166, 190),rgba(94,118,150,0.2));
+}
+.text_area::-webkit-scrollbar {
+    width: 7px;
+}
+#hagia .text_area::-webkit-scrollbar-thumb:hover {
+    background:rgb(65 40 20 / 30%);;
+}
+#hagia .text_area::-webkit-scrollbar-track {
+    background: white;
+    border-radius:5px;
+}
+  
+#hagia .text_area::-webkit-scrollbar-thumb {
+    background:linear-gradient(rgb(65 40 20),rgb(65 40 20 / 30%));
+}
+#hagia .text_area::-webkit-scrollbar {
+    width: 7px;
+}
+#topkapi .text_area::-webkit-scrollbar-thumb:hover {
+    background:rgb(87 113 134);
+}
+#topkapi .text_area::-webkit-scrollbar-track {
+    background: white;
+    border-radius:5px;
+}
+  
+#topkapi .text_area::-webkit-scrollbar-thumb {
+    background:linear-gradient(rgb(87 113 134),rgb(87 113 134 / 30%));
+}
+#topkapi .text_area::-webkit-scrollbar {
+    width: 7px;
+}
+#bazaar .text_area::-webkit-scrollbar-thumb:hover {
+    background:rgb(53 3 0);
+}
+#bazaar .text_area::-webkit-scrollbar-track {
+    background: white;
+    border-radius:5px;
+}
+  
+#bazaar .text_area::-webkit-scrollbar-thumb {
+    background:linear-gradient(rgb(53 3 0),rgb(53 3 0 / 80%));
+}
+#bazaar .text_area::-webkit-scrollbar {
+    width: 7px;
+}
+.contact {
+    display:block;
+    width:80%;
+    height:60%;
+    margin-top:175px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:rgba(255, 255, 255, 0.24);
+    text-align:center;
+    padding-top:50px;
+}
